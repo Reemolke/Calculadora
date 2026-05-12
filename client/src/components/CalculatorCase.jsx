@@ -97,6 +97,12 @@ return(
                 <td onClick={() => {handleOperation();}}>=</td>
                 <td onClick={() => handleButtonClick('+')}>+</td>
             </tr>
+            <tr>
+                <td onClick={() => handleButtonClick('0')}>0</td>
+                <td onClick={() => handleClear()}>C</td>
+                <td onClick={() => {handleOperation();}}>=</td>
+                <td onClick={() => handleButtonClick('+')}>+</td>
+            </tr>
         </table>
     </div>
 )
